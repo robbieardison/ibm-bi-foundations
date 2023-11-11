@@ -59,7 +59,7 @@ do
   then
    toBackup+=($file) # [TASK 11]
   fi
-done
+done 
 
 # [TASK 12]
 tar -czvf $backupFileName ${toBackup[@]}
